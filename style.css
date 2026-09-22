@@ -1,0 +1,51 @@
+/* Fontes Principais */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Ocultar barra de rolagem */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Card em Efeito Vidro (Glassmorphism) */
+.glass-card {
+    background: rgba(42, 31, 35, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(232, 197, 184, 0.12);
+}
+
+/* Transição de Páginas */
+.page {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.96) translateY(10px);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.page.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+}
+
+/* Estilização das Abas Ativas */
+.tab-btn {
+    color: #B0A2A6;
+    background: transparent;
+}
+
+.tab-btn.active {
+    color: #120F11;
+    background: #E8C5B8;
+    font-weight: 600;
+}
