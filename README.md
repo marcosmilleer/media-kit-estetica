@@ -2,7 +2,7 @@
 
 Um Media Kit interativo em formato de **Editorial Book / Apresentação de Slides**, desenvolvido especialmente para profissionais e clínicas da área de estética, saúde da pele e limpeza facial. O projeto foi projetado para ser utilizado como página de destino na **bio do Instagram**, apresentando serviços, tabela de preços, métricas, galeria interativa de antes/depois e canais diretos de contato/agendamento.
 
-![Preview do Projeto](https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop)
+![Preview do Projeto](estetica.jfif)
 
 ---
 
